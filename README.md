@@ -1,6 +1,6 @@
 ## PHB35 plugin for the Quilvyn RPG character sheet generator
 
-The quilvyn-phb35 package bundles modules apply additional rules from the
+The quilvyn-phb35 package bundles modules that apply additional rules from the
 <a href="https://www.drivethrurpg.com/product/148008/Players-Handbook-35">v3.5
 Player's Handbook</a>.
 
