@@ -14,11 +14,12 @@ quilvyn-core package.
 To use quilvyn-phb35, unbundle the release package into the plugins/
 subdirectory within the Quilvyn installation directory, then append the
 following lines to the file plugins/plugins.js:
-RULESETS['D&D v3.5'] =
-  url:'plugins/PHB35.js',
-  group:'v3.5',
-  require:'v3.5 (SRD only)'
-};
+
+    RULESETS['D&D v3.5'] = {
+      url:'plugins/PHB35.js',
+      group:'v3.5',
+      require:'v3.5 (SRD only)'
+    };
 
 ### Usage
 
