@@ -16,7 +16,7 @@ subdirectory within the Quilvyn installation directory, then append the
 following lines to the file plugins/plugins.js:
 
     RULESETS['D&D v3.5'] = {
-      url:'plugins/PHB35.js',
+      url:'PHB35.js',
       group:'v3.5',
       require:'v3.5 (SRD only)'
     };
@@ -24,4 +24,5 @@ following lines to the file plugins/plugins.js:
 ### Usage
 
 Once the quilvyn-phb35 package is installed as described above, start Quilvyn
-and choose 'D&D v3.5' from the rule sets menu in the initial window.
+and check the box next to "D&D v3.5" from the rule sets menu in the initial
+window.
