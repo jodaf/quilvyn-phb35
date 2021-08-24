@@ -72,7 +72,7 @@ function PHB35() {
 
 }
 
-PHB35.VERSION = '2.2.2.0';
+PHB35.VERSION = '2.3.1.0';
 
 PHB35.DEITIES = {
   'None':'',
