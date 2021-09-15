@@ -75,7 +75,7 @@ function PHB35() {
 PHB35.VERSION = '2.3.1.0';
 
 PHB35.DEITIES = {
-  'None':'',
+  'None':'Domain=' + QuilvynUtils.getKeys(SRD35.PATHS).filter(x => x.match(/Domain$/)).map(x => x.replace(' Domain', '')).join(','),
   'Corellon Larethian':
     'Alignment=CG ' +
     'Weapon=Longsword ' +
