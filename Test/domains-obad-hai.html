@@ -229,7 +229,7 @@ var attributes = {
   </tr><tr style="text-align:center">
     <td><b>Spells</b>:     <table id="Spells" style="width:100%">
     <tr style="text-align:left">
-      <td>Acid Fog (Water7 Conj): R110' Fog in 20' radius obscures vision and 5' Speed, -2 damage and attack, 2d6 HP/rd for 1 rd</td>
+      <td>Acid Fog (Water7 Conj): R110' Fog in 20' radius obscures vision, slows to 5'/rd, imposes -2 attack and damage, and inflicts 2d6 HP/rd while moving away 10'/rd for 1 rd</td>
     </tr><tr style="text-align:left">
       <td>Air Walk (Air4 Tran): Touched walks on air for 10 min</td>
     </tr><tr style="text-align:left">
@@ -239,29 +239,29 @@ var attributes = {
     </tr><tr style="text-align:left">
       <td>Antilife Shell (Animal6 Abju): 10' radius bars living for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Barkskin (Plant2 Tran): Touched +1 natural armor for 10 min</td>
+      <td>Barkskin (Plant2 Tran): Touched gains +1 natural armor for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Burning Hands (Fire1 Evoc): R15' cone 1d4 HP (DC 11 Ref half)</td>
+      <td>Burning Hands (Fire1 Evoc): R15' Cone inflicts 1d4 HP (DC 11 Ref half)</td>
     </tr><tr style="text-align:left">
-      <td>Calm Animals (Animal1 Ench): R25' 2d4+1 HD of animals in 15' radius docile for 1 min (DC 11 Will neg)</td>
+      <td>Calm Animals (Animal1 Ench): R25' 2d4+1 HD of animals in 15' radius become docile for 1 min (DC 11 Will neg)</td>
     </tr><tr style="text-align:left">
-      <td>Chain Lightning (Air6 Evoc): R440' 1d6 HP primary, half HP 1 secondary targets in 30' radius (DC 16 Ref half)</td>
+      <td>Chain Lightning (Air6 Evoc): R440' Bolt inflicts 1d6 HP to primary target, half HP to 1 secondary targets in 30' radius (DC 16 Ref half)</td>
     </tr><tr style="text-align:left">
-      <td>Command Plants (Plant4 Tran): R25' 2 HD plant creatures in 15' radius obey for 1 dy (DC 14 Will neg)</td>
+      <td>Command Plants (Plant4 Tran): R25' 2 HD plant creatures in 15' radius obey self for 1 dy (DC 14 Will neg)</td>
     </tr><tr style="text-align:left">
-      <td>Commune With Nature (Animal5 Divi): Self learn natural facts for 1 mile radius outdoors, 100' radius underground</td>
+      <td>Commune With Nature (Animal5 Divi): Self learns natural facts for 1 mile radius outdoors, 100' radius underground</td>
     </tr><tr style="text-align:left">
-      <td>Cone Of Cold (Water6 Evoc): R60' cone 1d6 HP (DC 16 Ref half)</td>
+      <td>Cone Of Cold (Water6 Evoc): R60' cone inflicts 1d6 HP (DC 16 Ref half)</td>
     </tr><tr style="text-align:left">
-      <td>Control Plants (Plant8 Tran): R25' 2 HD plant creatures in 15' radius obey for 1 min (DC 18 Will neg)</td>
+      <td>Control Plants (Plant8 Tran): R25' 2 HD plant creatures in 15' radius obey self for 1 min (DC 18 Will neg)</td>
     </tr><tr style="text-align:left">
-      <td>Control Water (Water4 Tran): R440' Raise or lower 10'x10'x2'x1 of water 2' for 10 min</td>
+      <td>Control Water (Water4 Tran): R440' Raise or lower 1 10'x10'x2' of water 2' for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Control Weather (Air7 Tran): Create seasonal weather in 2 mile radius for 4d12 hr</td>
+      <td>Control Weather (Air7 Tran): Modifies seasonal weather in 2 mile radius for 4d12 hr</td>
     </tr><tr style="text-align:left">
       <td>Control Winds (Air5 Tran): R40' Changes wind direction and speed 0 levels in 40'x40' cylinder for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Dominate Animal (Animal3 Ench): R25' Target animal obey thoughts for 1 rd (DC 13 Will neg)</td>
+      <td>Dominate Animal (Animal3 Ench): R25' Target animal obeys self thoughts for 1 rd (DC 13 Will neg)</td>
     </tr><tr style="text-align:left">
       <td>Earthquake (Earth7 Evoc): R440' Intense tremor shakes 80' radius for 1 rd</td>
     </tr><tr style="text-align:left">
@@ -275,27 +275,27 @@ var attributes = {
     </tr><tr style="text-align:left">
       <td>Entangle (Plant1 Tran): R440' Creatures in 40' radius entangled for 1 min (DC 11 Ref half speed)</td>
     </tr><tr style="text-align:left">
-      <td>Fire Seeds (Fire6 Conj): Touched 4 acorn grenades 1d6 total or 8 berry bombs 1d8+1 in 5' radius (DC 16 Ref half) that detonate on command for 10 min</td>
+      <td>Fire Seeds (Fire6 Conj): Touched 4 acorn grenades inflict 1d6 total or 8 berry bombs that detonate on command to inflict 1d8+1 in 5' radius (DC 16 Ref half) for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Fire Shield (Fire5 Evoc): Cold or hot flames enveloping self do 1d6+1 HP upon foe hit, take half HP from heat or cold attacks (DC 15 Ref no HP) for 1 rd</td>
+      <td>Fire Shield (Fire5 Evoc): Cold or hot flames enveloping self inflict 1d6+1 HP upon foe hit, reduce heat or cold damage by half (DC 15 Ref no HP) for 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Fire Storm (Fire7 Evoc): R110' 2 10' cu 1d6 HP (DC 17 Ref half)</td>
+      <td>Fire Storm (Fire7 Evoc): R110' 2 10' cu inflicts 1d6 HP (DC 17 Ref half)</td>
     </tr><tr style="text-align:left">
       <td>Fog Cloud (Water2 Conj): R110' Fog in 20' radius obscures vision for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Gaseous Form (Air3 Tran): Touched insubstantial (DR 10/magic, immune poison and critical hits, unable to use spell components, fly 10') for 2 min</td>
+      <td>Gaseous Form (Air3 Tran): Touched becomes insubstantial (DR 10/magic, immune to poison and critical hits, unable to use spell components, fly 10') for 2 min</td>
     </tr><tr style="text-align:left">
-      <td>Hold Animal (Animal2 Ench): R110' Target animal immobile for 1 rd (DC 12 Will neg)</td>
+      <td>Hold Animal (Animal2 Ench): R110' Immobilizes target animal for 1 rd (DC 12 Will neg)</td>
     </tr><tr style="text-align:left">
-      <td>Horrid Wilting (Water8 Necr): R440' 1d6 HP (1d8 plants or water elementals) in 30' radius (DC 18 Fort half)</td>
+      <td>Horrid Wilting (Water8 Necr): R440' Creatures in 30' radius suffer 1d6 HP (plants or water elementals 1d8 HP) (DC 18 Fort half)</td>
     </tr><tr style="text-align:left">
-      <td>Ice Storm (Water5 Evoc): R440' Hail in 20' radius 3d6 HP bludgeoning, 2d6 HP cold, -4 Listen for 1 rd</td>
+      <td>Ice Storm (Water5 Evoc): R440' Hail in 20' radius inflicts 3d6 HP bludgeoning, 2d6 HP cold, -4 Listen for 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Incendiary Cloud (Fire8 Conj): R110' 20' radius moves away 10'/rd, 4d6 HP (DC 18 Ref half) for 1 rd</td>
+      <td>Incendiary Cloud (Fire8 Conj): R110' Fire in 20' radius inflicts 4d6 HP (DC 18 Ref half) while moving away 10'/rd for 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Iron Body (Earth8 Tran): Self becomes iron (+6 Str, -6 Dex, half Speed, 50% arcane failure, -8 skill, DR 15/adamantine, half damage acid and fire, immune other attacks and effects) for 1 min</td>
+      <td>Iron Body (Earth8 Tran): Self becomes iron (+6 Strength, -6 Dexterity, half Speed, 50% arcane failure, -8 skill, DR 15/adamantine, half damage from acid and fire, immunity to other attacks and effects) for 1 min</td>
     </tr><tr style="text-align:left">
-      <td>Magic Stone (Earth1 Tran): 3 touched stones +1 attack, 1d6+1 HP (2d6+2 vs. undead) for 30 min</td>
+      <td>Magic Stone (Earth1 Tran): 3 touched stones attack at +1, inflict 1d6+1 HP (2d6+2 HP vs. undead) for 30 min</td>
     </tr><tr style="text-align:left">
       <td>Obscuring Mist (Air1 Conj): Fog in 20' radius obscures vision for 1 min</td>
     </tr><tr style="text-align:left">
@@ -303,39 +303,39 @@ var attributes = {
     </tr><tr style="text-align:left">
       <td>Plant Growth (Plant3 Tran): Vegetation in 440' radius becomes dense or 1/2 mile radius increases productivity</td>
     </tr><tr style="text-align:left">
-      <td>Produce Flame (Fire2 Evoc): Throwable torch flames 1d6+1 HP for 1 min</td>
+      <td>Produce Flame (Fire2 Evoc): Create throwable torch flames that inflict 1d6+1 HP for 1 min</td>
     </tr><tr style="text-align:left">
       <td>Repel Wood (Plant6 Tran): Repels 60' line of unanchored wood for 1 min</td>
     </tr><tr style="text-align:left">
-      <td>Resist Energy (Fire3 Abju): Touched resistance 10 to chosen energy for 10 min</td>
+      <td>Resist Energy (Fire3 Abju): Touched gains resistance 10 to chosen energy for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Shambler (Plant9 Conj): R110' 1d4+2 11 HD shambling mounds in 15' radius fight for 7 dy, guard for 7 mo</td>
+      <td>Shambler (Plant9 Conj): R110' Creates 1d4+2 11 HD shambling mounds in 15' radius that fight for 7 dy or guard for 7 mo</td>
     </tr><tr style="text-align:left">
-      <td>Shapechange (Animal9 Tran): Self become different animal of any size 1/rd for 10 min</td>
+      <td>Shapechange (Animal9 Tran): Self becomes different animal of any size 1/rd for 10 min</td>
     </tr><tr style="text-align:left">
       <td>Soften Earth And Stone (Earth2 Tran): R25' 1 10'x4' squares of wet earth/dry earth/natural stone becomes mud/sand/clay</td>
     </tr><tr style="text-align:left">
-      <td>Speak With Animals (Animal1 Divi): Self converse w/animals for 1 min</td>
+      <td>Speak With Animals (Animal1 Divi): Self converses w/animals for 1 min</td>
     </tr><tr style="text-align:left">
-      <td>Spike Stones (Earth4 Tran): R110' Spikes on stony ground in 20' sq 1d8 HP each 5' movement, slowed 1 dy to half speed (DC 14 Ref neg) for 1 hr</td>
+      <td>Spike Stones (Earth4 Tran): R110' Spikes on stony ground in 20' sq inflict 1d8 HP each 5' movement and slow to half speed for 1 dy (DC 14 Ref neg) for 1 hr</td>
     </tr><tr style="text-align:left">
-      <td>Stone Shape (Earth3 Tran): Shape 11' cu of stone</td>
+      <td>Stone Shape (Earth3 Tran): Self reshapes 11' cu of stone</td>
     </tr><tr style="text-align:left">
-      <td>Stoneskin (Earth6 Abju): Touched DR 10/adamantine for 10 HP or 10 min</td>
+      <td>Stoneskin (Earth6 Abju): Touched gains DR 10/adamantine for 10 HP or 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Summon Nature's Ally IV (Animal4 Conj): R25' 1 4th-, 1d3 3rd-, or 1d4+1 lower-level creature appears, fights foes for 1 rd</td>
+      <td>Summon Nature's Ally IV (Animal4 Conj): R25' 1 4th-, 1d3 3rd-, or 1d4+1 lower-level creatures appear and fight foes for 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Summon Nature's Ally VIII (Animal8 Conj): R25' 1 8th-, 1d3 7th-, or 1d4+1 lower-level creature appears, fights foes for 1 rd</td>
+      <td>Summon Nature's Ally VIII (Animal8 Conj): R25' 1 8th-, 1d3 7th-, or 1d4+1 lower-level creatures appear and fight foes for 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Wall Of Fire (Fire4 Evoc): R110' 20' wall 2d4 HP w/in 10', 1d4 HP w/in 20', 2d6+1 HP transit (undead dbl) for conc + 1 rd</td>
+      <td>Wall Of Fire (Fire4 Evoc): R110' 20' wall inflicts 2d4 HP to creatures w/in 10', 1d4 HP to creatures w/in 20', 2d6+1 HP when passing through (undead dbl) for conc + 1 rd</td>
     </tr><tr style="text-align:left">
-      <td>Wall Of Stone (Earth5 Conj): R110' 1 x 5' 0 inch thick permanent stone wall</td>
+      <td>Wall Of Stone (Earth5 Conj): R110' Creates 1 5' x 0 inch thick permanent stone wall</td>
     </tr><tr style="text-align:left">
-      <td>Wall Of Thorns (Plant5 Conj): R110' 1 10' cu thorns (25-AC) HP/rd transit for 10 min</td>
+      <td>Wall Of Thorns (Plant5 Conj): R110' 1 10' cu thorns inflicts (25-AC) HP/rd when passing through for 10 min</td>
     </tr><tr style="text-align:left">
-      <td>Water Breathing (Water3 Tran): Touched breathe underwater for 2 hrs total</td>
+      <td>Water Breathing (Water3 Tran): Touched can breathe underwater for 2 hrs total</td>
     </tr><tr style="text-align:left">
-      <td>Whirlwind (Air8 Evoc): R440' Wind in 10' radius 3d6 HP, then 1d8 HP/rd for 1 rd (DC 18 Ref neg)</td>
+      <td>Whirlwind (Air8 Evoc): R440' Wind in 10' radius inflicts 3d6 HP, then 1d8 HP/rd for 1 rd (DC 18 Ref neg)</td>
     </tr><tr style="text-align:left">
       <td>Wind Wall (Air2 Evoc): R110' 10'x5' curtain of air scatters objects, deflects arrows and bolts for 1 rd</td>
     </tr></table>
