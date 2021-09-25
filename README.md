@@ -18,7 +18,7 @@ following lines to the file plugins/plugins.js:
     RULESETS['D&D v3.5'] = {
       url:'plugins/PHB35.js',
       group:'v3.5',
-      require:'v3.5 (SRD only)'
+      require:'SRD35.js'
     };
 
 ### Usage
