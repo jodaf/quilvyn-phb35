@@ -196,10 +196,15 @@ PHB35.getPlugins = function() {
 /* Returns HTML body content for user notes associated with this rule set. */
 PHB35.ruleNotes = function() {
   return '' +
-    '<h2>D&D v3.5 Quilvyn Plugin Notes</h2>\n' +
-    'D&D v3.5 Quilvyn Plugin Version ' + PHB35.VERSION + '\n' +
+    '<h2>Quilvyn D&D v3.5 Rule Set Notes</h2>\n' +
     '<p>\n' +
-    'Quilvyn\'s D&D v3.5 rule set is unofficial Fan Content permitted under ' +
+    'Quilvyn D&D v3.5 Rule Set Version ' + PHB35.VERSION + '\n' +
+    '</p><p>\n' +
+    "There are no known bugs, limitations, or usage notes specific to Quilvyn's D&D v3.5 Rule Set\n" +
+    '</p>\n' +
+    '<h3>Copyrights and Licensing</h3>\n' +
+    '<p>\n' +
+    'Quilvyn\'s D&D v3.5 Rule Set is unofficial Fan Content permitted under ' +
     'Wizards of the Coast\'s ' +
     '<a href="https://company.wizards.com/en/legal/fancontentpolicy">Fan Content Policy</a>.\n' +
     '</p><p>\n' +
@@ -209,7 +214,5 @@ PHB35.ruleNotes = function() {
     '</p><p>\n' +
     'Dungeons & Dragons Player\'s Handbook v3.5 © 2003 Wizards of the Coast, ' +
     'Inc.\n' +
-    '</p><p>\n' +
-    'There are no known bugs, limitations, or usage notes specific to the D&D v3.5 plugin\n' +
     '</p>\n';
 };
