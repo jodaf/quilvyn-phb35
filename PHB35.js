@@ -200,7 +200,7 @@ PHB35.ruleNotes = function() {
     '<p>\n' +
     'Quilvyn D&D v3.5 Rule Set Version ' + PHB35.VERSION + '\n' +
     '</p><p>\n' +
-    "There are no known bugs, limitations, or usage notes specific to Quilvyn's D&D v3.5 Rule Set\n" +
+    "There are no known bugs, limitations, or usage notes specific to Quilvyn's D&D v3.5 Rule Set.\n" +
     '</p>\n' +
     '<h3>Copyrights and Licensing</h3>\n' +
     '<p>\n' +
