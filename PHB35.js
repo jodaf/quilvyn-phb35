@@ -1,5 +1,5 @@
 /*
-Copyright 2021, James J. Hayes
+Copyright 2023, James J. Hayes
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -72,10 +72,10 @@ function PHB35() {
 
 }
 
-PHB35.VERSION = '2.3.1.0';
+PHB35.VERSION = '2.4.1.0';
 
 PHB35.DEITIES = {
-  'None':'Domain=' + QuilvynUtils.getKeys(SRD35.PATHS).filter(x => x.match(/Domain$/)).map(x => x.replace(' Domain', '')).join(','),
+  'None':'',
   'Corellon Larethian':
     'Alignment=CG ' +
     'Weapon=Longsword ' +
